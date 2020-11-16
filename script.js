@@ -1,14 +1,14 @@
 var buttonElementOcean = document.getElementById('oceansfx');
 buttonElementOcean.onclick = function (){
-    buttonElementOcean.play ()
+    buttonElementOcean.play('ocean.wav')
 }
 
 var buttonElementSoda = document.getElementById('sodasfx');
-buttonElementSoda.addEventListener('click', function () {
-    buttonElementSoda.play()
-});
+buttonElementSoda.onclick = function () {
+    buttonElementSoda.play('soda.wav')
+};
 
 var buttonElementSplash = document.getElementById('splashsfx');
-buttonElementSplash.addEventListener('click', function () {
-    buttonElementSplash.play ()
-});
+buttonElementSplash.onclick = function () {
+    buttonElementSplash.play('splash.wav')
+};
