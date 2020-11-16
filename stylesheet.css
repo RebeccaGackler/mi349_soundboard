@@ -8,6 +8,10 @@ body{
     text-align: center;
 }
 
+h1{
+    font-size: 40px;
+}
+
 .button{
     background-color: rgb(32, 210, 233);
     border-radius: 20px;
@@ -15,5 +19,15 @@ body{
     width: 200px;
     height: 100px;
     font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+#oceanwave{
+    
 }
 
